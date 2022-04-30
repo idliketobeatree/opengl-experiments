@@ -17,7 +17,7 @@ public:
 	int windowWidth, windowHeight, framebufferWidth, framebufferHeight;
 
 	GLuint shaderProgram;
-	int mvpLoc;
+	GLint mvpLoc;
 
 	glm::mat4 view, projection;
 	glm::vec3 cameraPosition, cameraRotation;
