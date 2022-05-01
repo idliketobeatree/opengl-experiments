@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle
+CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build
+CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build
 
 # Utility rule file for glad-generate-files.
 
@@ -77,7 +77,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad-gener
 
 
 /Users/computer/Coding/opengl-experiments/lib/glad/include/glad/glad.h:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
 	cd /Users/computer/Coding/opengl-experiments/lib/glad && /usr/local/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m glad --profile=compatibility --out-path=/Users/computer/Coding/opengl-experiments/lib/glad --api= --generator=c --extensions= --spec=gl
 
 /Users/computer/Coding/opengl-experiments/lib/glad/src/glad.c: /Users/computer/Coding/opengl-experiments/lib/glad/include/glad/glad.h
@@ -100,6 +100,6 @@ glad-generate-files: /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFil
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad-generate-files.dir/clean
 
 /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad-generate-files.dir/depend:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_triangle /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad-generate-files.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_camera /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad-generate-files.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad-generate-files.dir/depend
 

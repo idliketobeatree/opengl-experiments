@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle
+CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build
+CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build
 
 # Include any dependencies generated for this target.
 include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/depend.make
@@ -82,7 +82,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/s
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/sharing.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/sharing.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/sharing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/sharing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/sharing.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sharing.dir/sharing.c.o -c /Users/computer/Coding/opengl-experiments/lib/glfw/examples/sharing.c
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/sharing.c.i: cmake_force
@@ -95,7 +95,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/s
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/deps/glad_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /Users/computer/Coding/opengl-experiments/lib/glfw/deps/glad_gl.c
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.i: cmake_force
@@ -119,7 +119,7 @@ sharing_EXTERNAL_OBJECTS =
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/sharing.app/Contents/MacOS/sharing: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/build.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/sharing.app/Contents/MacOS/sharing: /Users/computer/Coding/opengl-experiments/lib/glfw/src/libglfw3.a
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/sharing.app/Contents/MacOS/sharing: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sharing.app/Contents/MacOS/sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sharing.app/Contents/MacOS/sharing"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -133,6 +133,6 @@ sharing_EXTERNAL_OBJECTS =
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/clean
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/depend:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_triangle /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_camera /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/sharing.dir/depend
 

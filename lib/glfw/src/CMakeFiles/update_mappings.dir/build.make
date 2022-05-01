@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle
+CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build
+CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build
 
 # Utility rule file for update_mappings.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_t
 include /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/src && /usr/local/Cellar/cmake/3.19.2/bin/cmake -P /Users/computer/Coding/opengl-experiments/lib/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings
@@ -91,6 +91,6 @@ update_mappings: /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFil
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_triangle /Users/computer/Coding/opengl-experiments/lib/glfw/src /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build /Users/computer/Coding/opengl-experiments/lib/glfw/src /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_camera /Users/computer/Coding/opengl-experiments/lib/glfw/src /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build /Users/computer/Coding/opengl-experiments/lib/glfw/src /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/src/CMakeFiles/update_mappings.dir/depend
 

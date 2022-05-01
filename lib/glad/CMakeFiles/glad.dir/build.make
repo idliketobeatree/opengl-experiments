@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle
+CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build
+CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build
 
 # Include any dependencies generated for this target.
 include /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/depend.make
@@ -77,7 +77,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/p
 include /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/flags.make
 
 /Users/computer/Coding/opengl-experiments/lib/glad/include/glad/glad.h:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GLAD"
 	cd /Users/computer/Coding/opengl-experiments/lib/glad && /usr/local/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m glad --profile=compatibility --out-path=/Users/computer/Coding/opengl-experiments/lib/glad --api= --generator=c --extensions= --spec=gl
 
 /Users/computer/Coding/opengl-experiments/lib/glad/src/glad.c: /Users/computer/Coding/opengl-experiments/lib/glad/include/glad/glad.h
@@ -85,7 +85,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/f
 
 /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/src/glad.c.o: /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/src/glad.c.o: /Users/computer/Coding/opengl-experiments/lib/glad/src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/src/glad.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glad && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/computer/Coding/opengl-experiments/lib/glad/src/glad.c
 
 /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
@@ -106,7 +106,7 @@ glad_EXTERNAL_OBJECTS =
 /Users/computer/Coding/opengl-experiments/lib/glad/libglad.a: /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/src/glad.c.o
 /Users/computer/Coding/opengl-experiments/lib/glad/libglad.a: /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/build.make
 /Users/computer/Coding/opengl-experiments/lib/glad/libglad.a: /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libglad.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libglad.a"
 	cd /Users/computer/Coding/opengl-experiments/lib/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
 	cd /Users/computer/Coding/opengl-experiments/lib/glad && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
@@ -121,6 +121,6 @@ glad_EXTERNAL_OBJECTS =
 
 /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/depend: /Users/computer/Coding/opengl-experiments/lib/glad/include/glad/glad.h
 /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/depend: /Users/computer/Coding/opengl-experiments/lib/glad/src/glad.c
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_triangle /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_camera /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build /Users/computer/Coding/opengl-experiments/lib/glad /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glad/CMakeFiles/glad.dir/depend
 

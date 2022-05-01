@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle
+CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build
+CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build
 
 # Include any dependencies generated for this target.
 include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/depend.make
@@ -82,7 +82,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/p
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/particles.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/particles.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/particles.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/particles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/particles.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/particles.c.o -c /Users/computer/Coding/opengl-experiments/lib/glfw/examples/particles.c
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/particles.c.i: cmake_force
@@ -95,7 +95,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/p
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/deps/tinycthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /Users/computer/Coding/opengl-experiments/lib/glfw/deps/tinycthread.c
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.i: cmake_force
@@ -108,7 +108,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/p
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/deps/getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /Users/computer/Coding/opengl-experiments/lib/glfw/deps/getopt.c
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.i: cmake_force
@@ -121,7 +121,7 @@ include /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/p
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/flags.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o: /Users/computer/Coding/opengl-experiments/lib/glfw/deps/glad_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /Users/computer/Coding/opengl-experiments/lib/glfw/deps/glad_gl.c
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.i: cmake_force
@@ -149,7 +149,7 @@ particles_EXTERNAL_OBJECTS =
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/particles.app/Contents/MacOS/particles: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/build.make
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/particles.app/Contents/MacOS/particles: /Users/computer/Coding/opengl-experiments/lib/glfw/src/libglfw3.a
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/particles.app/Contents/MacOS/particles: /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable particles.app/Contents/MacOS/particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable particles.app/Contents/MacOS/particles"
 	cd /Users/computer/Coding/opengl-experiments/lib/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/particles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ particles_EXTERNAL_OBJECTS =
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/clean
 
 /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/depend:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_triangle /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/computer/Coding/opengl-experiments/experiments/hello_camera /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build /Users/computer/Coding/opengl-experiments/lib/glfw/examples /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/examples/CMakeFiles/particles.dir/depend
 

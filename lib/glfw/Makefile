@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.19.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle
+CMAKE_SOURCE_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build
+CMAKE_BINARY_DIR = /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles /Users/computer/Coding/opengl-experiments/lib/glfw//CMakeFiles/progress.marks
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build/CMakeFiles 0
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles /Users/computer/Coding/opengl-experiments/lib/glfw//CMakeFiles/progress.marks
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/clean
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/preinstall
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/preinstall
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/rule:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/rule
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/rule
 .PHONY : /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ uninstall: /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninsta
 
 # fast build rule for target.
 uninstall/fast:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(MAKE) $(MAKESILENT) -f /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/build.make /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/build
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(MAKE) $(MAKESILENT) -f /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/build.make /Users/computer/Coding/opengl-experiments/lib/glfw/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -214,6 +214,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/computer/Coding/opengl-experiments/experiments/hello_triangle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/computer/Coding/opengl-experiments/experiments/hello_camera/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

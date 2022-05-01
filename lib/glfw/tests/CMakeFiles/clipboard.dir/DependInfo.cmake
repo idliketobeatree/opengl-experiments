@@ -12,10 +12,10 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/HelloTriangle"
-  "/Users/computer/Coding/opengl-experiments/experiments/hello_triangle"
-  "/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/../.."
-  "/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/../../lib"
+  "/Users/computer/Coding/opengl-experiments/experiments/hello_camera/HelloCamera"
+  "/Users/computer/Coding/opengl-experiments/experiments/hello_camera"
+  "/Users/computer/Coding/opengl-experiments/experiments/hello_camera/../.."
+  "/Users/computer/Coding/opengl-experiments/experiments/hello_camera/../../lib"
   "/Users/computer/Coding/opengl-experiments/lib/glfw/deps"
   "/Users/computer/Coding/opengl-experiments/lib/glfw/include"
   )

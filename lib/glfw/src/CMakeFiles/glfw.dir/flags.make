@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/HelloTriangle -I/Users/computer/Coding/opengl-experiments/experiments/hello_triangle -I/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/../.. -I/Users/computer/Coding/opengl-experiments/experiments/hello_triangle/../../lib -I/Users/computer/Coding/opengl-experiments/lib/glfw/include -I/Users/computer/Coding/opengl-experiments/lib/glfw/src
+C_INCLUDES = -I/Users/computer/Coding/opengl-experiments/experiments/hello_camera/HelloCamera -I/Users/computer/Coding/opengl-experiments/experiments/hello_camera -I/Users/computer/Coding/opengl-experiments/experiments/hello_camera/../.. -I/Users/computer/Coding/opengl-experiments/experiments/hello_camera/../../lib -I/Users/computer/Coding/opengl-experiments/lib/glfw/include -I/Users/computer/Coding/opengl-experiments/lib/glfw/src
 
 C_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -fPIC -Wall -std=gnu99
 
