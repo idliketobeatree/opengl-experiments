@@ -240,8 +240,6 @@ void Application::handleInput() {
 	}
 
 	glm::vec3 forward = glm::vec3(std::cos(cameraYaw) * std::cos(cameraPitch), std::sin(cameraPitch), std::sin(cameraYaw) * std::cos(cameraPitch));
-	glm::vec3 right = glm::normalize(glm::cross(glm::vec3(0.0f, 1.0f, 0.0f), forward));
-	glm::vec3 up = glm::cross(forward, right);
 
 	this->cameraPosition = -forward * cameraDistance;
 
@@ -249,7 +247,7 @@ void Application::handleInput() {
 		exit(1);
 	}
 
-	this->view = glm::lookAt(cameraPosition, cameraPosition + forward, glm::vec3(0.0f, 1.0f, 0.0f));
+	this->view = glm::lookAt(cameraPosition, glm::vec3(0, 0, 0), glm::vec3(0.0f, 1.0f, 0.0f));
 	this->projection = glm::perspective(glm::radians(70.0f), static_cast<float>(framebufferWidth) / static_cast<float>(framebufferHeight), 0.1f, 100.0f);
 }
 void Application::cleanup() {
