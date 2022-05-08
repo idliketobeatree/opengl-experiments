@@ -2,7 +2,7 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <GLM/glm/glm.hpp>
+#include <glm/glm.hpp>
 
 #include <vector>
 

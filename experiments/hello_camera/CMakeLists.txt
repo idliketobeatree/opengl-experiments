@@ -9,8 +9,9 @@ include_directories(${PROJECT_NAME}
 	${PROJECT_SOURCE_DIR}/../../lib/
 )
 
-add_subdirectory(${PROJECT_SOURCE_DIR}/../../lib/glfw/ ${PROJECT_SOURCE_DIR}/../../lib/glfw/)
-add_subdirectory(${PROJECT_SOURCE_DIR}/../../lib/glad/ ${PROJECT_SOURCE_DIR}/../../lib/glad/)
+add_subdirectory(${PROJECT_SOURCE_DIR}/../../lib/glfw/ ${PROJECT_SOURCE_DIR}/../../lib/glfw/build/)
+add_subdirectory(${PROJECT_SOURCE_DIR}/../../lib/glad/ ${PROJECT_SOURCE_DIR}/../../lib/glad/build/)
+add_subdirectory(${PROJECT_SOURCE_DIR}/../../lib/glm/ ${PROJECT_SOURCE_DIR}/../../lib/glm/build/)
 
 add_executable(${PROJECT_NAME}
 	main.cpp
@@ -22,4 +23,5 @@ add_executable(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
 	glfw
 	glad
+	glm
 )

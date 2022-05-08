@@ -2,8 +2,8 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <GLM/glm/vec2.hpp>
-#include <GLM/glm/vec3.hpp>
+#include <glm/vec2.hpp>
+#include <glm/vec3.hpp>
 
 #include <vector>
 
